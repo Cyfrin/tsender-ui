@@ -19,7 +19,7 @@ export const chainsToTSender: ContractsConfig = {
         no_check: "0x091bAB6497F2Cc429c82c5807Df4faA34235Cccc",
     },
     10: {
-        tsender: "0x95b9aA5EF74D93F17D0A4f025ED23a2D7Df69220",
+        tsender: "0xAaf523DF9455cC7B6ca5637D01624BC00a5e9fAa",
         no_check: "0xa0c7ADA2c7c29729d12e2649BC6a0a293Ac46725",
     },
     8453: {
@@ -30,6 +30,10 @@ export const chainsToTSender: ContractsConfig = {
         tsender: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
         no_check: "0x5FbDB2315678afecb367f032d93F642f64180aa3",
     },
+    11155111: {
+        tsender: "0xa27c5C77DA713f410F9b15d4B0c52CAe597a973a",
+        no_check: "0xa27c5C77DA713f410F9b15d4B0c52CAe597a973a",
+    }
 }
 
 export const erc20Abi = [

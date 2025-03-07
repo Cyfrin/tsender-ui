@@ -43,3 +43,5 @@ node_modules/
 .cache-synpress/
 
 .fleek/*
+.env 
+.env.enc

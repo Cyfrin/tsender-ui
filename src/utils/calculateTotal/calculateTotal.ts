@@ -1,6 +1,6 @@
 export function calculateTotal(amounts: string): number {
     const amountArray = amounts
-        .split(",")
+        .split(/[,\n]+/)
         .map(amt => amt.trim())
         .filter(amt => amt !== "")
         .map(amt => parseFloat(amt))
