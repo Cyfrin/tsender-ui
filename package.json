@@ -1,5 +1,6 @@
 {
   "name": "tsender-ui",
+  "type": "module",
   "private": true,
   "version": "0.0.1",
   "scripts": {
@@ -11,6 +12,7 @@
     "coverage": "pnpm vitest run --coverage",
     "test:unit": "vitest",
     "test:e2e": "pnpm exec playwright test",
+    "test:e2e-ui": "pnpm exec playwright test --ui",
     "format": "prettier --write \"src/**/*.{ts,tsx}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx}\""
   },
@@ -31,6 +33,7 @@
   },
   "devDependencies": {
     "@playwright/test": "1.48.2",
+    "@synthetixio/synpress": "^4.1.1",
     "@types/node": "^20.12.10",
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",

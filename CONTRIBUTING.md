@@ -15,8 +15,10 @@ Thanks for wanting to contribute to the project! Here are some guidelines to hel
 
 ```bash
 pnpm test:unit # unit tests
-pnpm test:e2e # broken e2e tests
+pnpm test:e2e # e2e tests
+pnpm test:e2e-ui # e2e tests with ui
 ```
+**Note:** To run tests from the `e2e` folder, you can change the `testDir` in `playwright.config.ts` from `'./test'` to `'./e2e'`.
 
 # Anvil Setup
 
